@@ -1,19 +1,20 @@
 @ECHO off
 color 02
 cd C:\Users\tehep
-PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;C:\Program Files\Vim\vim81;C:\Program Files\ffmpeg\bin;C:\MinGW\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Windows\System32\OpenSSH;C:\MinGW\msys\1.0\bin;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;C:\Program Files\fasm;
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;C:\Program Files\Vim\vim81;C:\Program Files\ffmpeg\bin;C:\MinGW\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Windows\System32\OpenSSH;C:\MinGW\msys\1.0\bin;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;C:\Program Files\fasm;C:\Users\tehep\scripts;
 title
-prompt $$$S
+prompt tehep$G$S
+::hardcoded prompt but we cd here literally 2 lines up so itll never not be true unless there are bugs here
 doskey cls=%USERPROFILE%\scripts\todo.bat
-doskey pf=cd "C:\Program Files"
-doskey x86=cd "C:\Program Files (x86)"
-doskey g=cd C:\Users\tehep\games
-doskey t=cd C:\users\tehep\tools
-doskey imp=cd C:\users\tehep\important
-doskey s32=cd C:\windows\system32
-doskey me=cd C:\users\tehep
-doskey cfg=cd C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\cfg
-doskey msys=cd C:\MinGW\msys\1.0\bin
+doskey pf=cdx "C:\Program Files"
+doskey x86=cdx "C:\Program Files (x86)"
+doskey g=cdx C:\Users\tehep\games
+doskey t=cdx C:\users\tehep\tools
+doskey imp=cdx C:\users\tehep\important
+doskey s32=cdx C:\windows\system32
+doskey me=cdx C:\users\tehep
+doskey cfg=cdx C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\cfg
+doskey msys=cdx C:\MinGW\msys\1.0\bin
 doskey sdn=shutdown /p
 doskey sdrn=shutdown /r /t 0
 doskey yt=youtube-dl -i --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Videos\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $1
@@ -21,11 +22,11 @@ doskey ytfile=youtube-dl -i --geo-bypass --add-metadata --console-title -o "C:\\
 doskey yta=youtube-dl -i -x --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Music\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $1
 doskey appdata=cd C:\Users\tehep\AppData
 doskey time=time /t
-doskey c=cd C:\
+doskey c=cdx C:\
 doskey vrc=v C:\Users\tehep\Appdata\Local\nvim\init.vim
-doskey vimfiles=cd "C:\Program Files\Neovim\share\nvim\runtime"
+doskey vimfiles=cdx "C:\Program Files\Neovim\share\nvim\runtime"
 doskey sound=start control mmsys.cpl sounds
-doskey common=cd "C:\Program Files\Steam\steamapps\common"
+doskey common=cdx "C:\Program Files\Steam\steamapps\common"
 doskey ps=powershell.exe
 doskey BLUE=nircmd setdefaultsounddevice BLUE
 doskey WIRELESS=nircmd setdefaultsounddevice WIRELESS
@@ -34,10 +35,13 @@ doskey pix="C:\Program Files\JPEGView\JPEGView.exe" $*
 doskey sdt=shutdown /s /t $1
 doskey sda=shutdown /a
 doskey bb=mpc C:\Users\tehep\Music\ambientdump /randomize
-doskey chud=cd "C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom\pizzzahud"
+doskey chud=cdx "C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom\pizzzahud"
 doskey tox="C:\Program Files\qTox\bin\qtox.exe" $*
 doskey pwd=cd
 ::^^pwd takes fucking forever and im pretty sure its from msys, cd or cd. does the same thing for less waiting
+doskey cd=cdx $1
+doskey cmd=%USERPROFILE%\scripts\cmdsetup.bat
+doskey new_cmd=cmd $*
 
 
 
