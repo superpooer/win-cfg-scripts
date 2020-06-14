@@ -5,7 +5,7 @@ PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32
 title
 prompt tehep$G$S
 ::^^hardcoded prompt but we cd here literally 2 lines up so itll never not be true unless there are bugs here
-doskey cls=%USERPROFILE%\scripts\todo.bat
+doskey cls=%USERPROFILE%\win-cfg-scripts\todo.bat
 doskey pf=cdx "C:\Program Files"
 doskey x86=cdx "C:\Program Files (x86)"
 doskey g=cdx C:\Users\tehep\games
