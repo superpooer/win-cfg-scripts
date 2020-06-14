@@ -39,7 +39,7 @@ doskey chud=cdx "C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\cust
 doskey tox="C:\Program Files\qTox\bin\qtox.exe" $*
 doskey pwd=cd
 ::^^pwd takes fucking forever and im pretty sure its from msys, cd or cd. does the same thing for less waiting
-doskey cd=cdx $1
+doskey cd=cdx $*
 doskey cmd=%USERPROFILE%\win-cfg-scripts\cmdsetup.bat
 doskey new_cmd=cmd $*
 doskey hb=cdx "C:\Program Files\homebrew"
