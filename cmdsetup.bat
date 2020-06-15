@@ -1,7 +1,8 @@
 @ECHO off
+doskey cd=cdx $*
 color 02
 cd C:\Users\tehep
-PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;;C:\Program Files\ffmpeg\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;C:\Program Files\fasm;C:\Program Files\homebrew;
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;;C:\Program Files\ffmpeg\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;C:\Program Files\fasm;C:\Program Files\homebrew;C:\MinGW\msys\1.0\bin;
 title
 prompt tehep$G$S
 ::^^hardcoded prompt but we cd here literally 2 lines up so itll never not be true unless there are bugs here
@@ -39,10 +40,11 @@ doskey chud=cdx "C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\cust
 doskey tox="C:\Program Files\qTox\bin\qtox.exe" $*
 doskey pwd=cd
 ::^^pwd takes fucking forever and im pretty sure its from msys, cd or cd. does the same thing for less waiting
-doskey cd=cdx $*
 doskey cmd=%USERPROFILE%\win-cfg-scripts\cmdsetup.bat
 doskey new_cmd=cmd $*
 doskey hb=cdx "C:\Program Files\homebrew"
+doskey lr=type C:\Users\tehep\repos-list
+doskey utils=dir /w /a:-d C:\MinGW\msys\1.0\bin
 
 
 
