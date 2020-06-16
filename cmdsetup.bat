@@ -3,7 +3,7 @@ doskey cd=cdx $*
 color 02
 cd C:\Users\tehep
 PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;;C:\Program Files\ffmpeg\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;C:\Program Files\fasm;C:\Program Files\homebrew;C:\MinGW\msys\1.0\bin;
-title
+title cmd
 prompt tehep$G$S
 ::^^hardcoded prompt but we cd here literally 2 lines up so itll never not be true unless there are bugs here
 doskey cls=%USERPROFILE%\win-cfg-scripts\todo.bat
