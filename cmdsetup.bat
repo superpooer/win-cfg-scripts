@@ -37,7 +37,6 @@ doskey sdt=shutdown /s /t $1
 doskey sda=shutdown /a
 doskey bb=mpc C:\Users\tehep\Music\ambientdump /randomize
 doskey chud=cdx "C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom\pizzzahud"
-doskey tox="C:\Program Files\qTox\bin\qtox.exe" $*
 doskey pwd=cd
 ::^^pwd takes fucking forever and im pretty sure its from msys, cd or cd. does the same thing for less waiting
 doskey cmd=%USERPROFILE%\win-cfg-scripts\cmdsetup.bat
@@ -45,6 +44,7 @@ doskey new_cmd=cmd $*
 doskey hb=cdx "C:\Program Files\homebrew"
 doskey lr=type C:\Users\tehep\repos-list
 doskey utils=dir /w /a:-d C:\MinGW\msys\1.0\bin
+doskey jami="C:\Program Files\Jami\jami.exe"
 
 
 
