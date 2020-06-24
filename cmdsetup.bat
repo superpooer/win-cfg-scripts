@@ -46,6 +46,7 @@ doskey lr=type C:\Users\tehep\repos-list
 doskey utils=dir /w /a:-d C:\MinGW\msys\1.0\bin
 doskey jami="C:\Program Files\Jami\jami.exe"
 doskey tox="C:\Program Files\qTox\bin\qtox.exe"
+doskey magick="C:\Program Files\ImageMagick\magick.exe" $*
 
 
 
