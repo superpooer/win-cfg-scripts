@@ -48,6 +48,10 @@ doskey jami="C:\Program Files\Jami\jami.exe"
 doskey tox="C:\Program Files\qTox\bin\qtox.exe"
 doskey magick="C:\Program Files\ImageMagick\magick.exe" $*
 doskey startup=cdls "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+doskey gA=git add -A
+doskey gs=git status
+doskey gc=git commit
+doskey gpmas=git push origin master
 
 
 
