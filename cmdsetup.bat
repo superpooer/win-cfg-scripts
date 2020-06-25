@@ -47,6 +47,7 @@ doskey utils=dir /w /a:-d C:\MinGW\msys\1.0\bin
 doskey jami="C:\Program Files\Jami\jami.exe"
 doskey tox="C:\Program Files\qTox\bin\qtox.exe"
 doskey magick="C:\Program Files\ImageMagick\magick.exe" $*
+doskey startup=cdls "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
 
 
