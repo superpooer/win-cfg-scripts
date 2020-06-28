@@ -65,6 +65,7 @@ doskey gs=git status
 doskey gc=git commit
 doskey gpmas=git push origin master
 doskey xp=%USERPROFILE%\games\q3\xp.bat $*
+doskey qtrc=v %USERPROFILE%\AppData\Roaming\qutebrowser\config\config.py
 
 
 
