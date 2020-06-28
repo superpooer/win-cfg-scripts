@@ -10,6 +10,5 @@ echo I    temple on spare hdd/thiccpad         I
 echo I    learn latex by answerin q217         I
 echo I    make asmblr/disasm                   I
 echo I    calculator.c                         I
-echo I    CHARCOUNTER EZPZ                     I
 echo I                                         I
 echo -------------------------------------------
