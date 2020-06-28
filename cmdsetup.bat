@@ -16,6 +16,7 @@ set LOCALLOW=%USERPROFILE%\AppData\LocalLow
 set APPDATA=%USERPROFILE%\AppData
 set REPOS=%USERPROFILE%\repos
 set HB="C:\Program Files\homebrew"
+set MU=%USERPROFILE%\Music
 set TFCFG="C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\cfg"
 title cmd
 prompt tehep[$+]$S
@@ -33,6 +34,7 @@ doskey sdrn=shutdown /r /t 0
 doskey yt=youtube-dl -i --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Videos\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $1
 doskey ytfile=youtube-dl -i --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Videos\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" -a C:\Users\tehep\to_dl.bat
 doskey yta=youtube-dl -i -x --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Music\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $1
+doskey ytalbum=youtube-dl -i -x --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Music\\yt-dl\\$1\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $2
 doskey appdata=cd C:\Users\tehep\AppData
 doskey c=cdx C:\
 doskey vrc=v C:\Users\tehep\Appdata\Local\nvim\init.vim
