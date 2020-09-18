@@ -80,3 +80,4 @@ doskey qt="C:\Program Files\qutebrowser\qutebrowser.exe" $*
 
 ::todo also has cls inside
 %USERPROFILE%\win-cfg-scripts\todo.bat
+%USERPROFILE%\setup.bat
