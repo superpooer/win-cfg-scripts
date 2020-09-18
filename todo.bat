@@ -8,3 +8,7 @@ echo I    temple on spare hdd/thiccpad         I
 echo I    learn enums n make ger plate thing   I
 echo I                                         I
 echo -------------------------------------------
+
+
+
+%USERPROFILE%\setup.bat
