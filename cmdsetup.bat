@@ -18,8 +18,8 @@ set REPOS=%USERPROFILE%\repos
 set HB="C:\Program Files\homebrew"
 set MU=%USERPROFILE%\Music
 set TFCFG="C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\cfg"
-set STARTUP="C:\Users\tehep\Appdata\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
-set TASKBAR="C:\Users\tehep\Appdata\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\Taskbar"
+set STARTUP="%USERPROFILE%\Appdata\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+set TASKBAR="%USERPROFILE%\Appdata\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\Taskbar"
 title cmd
 prompt tehep[$+]$S
 ::^^hardcoded prompt but we cd here so itll never not be true
