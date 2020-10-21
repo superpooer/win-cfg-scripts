@@ -73,7 +73,7 @@ doskey gpullmas=git pull origin master
 doskey xp=%USERPROFILE%\games\q3\xp.bat $*
 doskey qtrc=v %USERPROFILE%\AppData\Roaming\qutebrowser\config\config.py
 doskey qt="C:\Program Files\qutebrowser\qutebrowser.exe" $*
-doskey tox-sent=cdx %APPDATA%\Roaming\tox\images
+doskey tox-sent=explorer %APPDATA%\Roaming\tox\images
 
 
 
