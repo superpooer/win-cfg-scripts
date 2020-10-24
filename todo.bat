@@ -6,7 +6,6 @@ echo I    TODO:                                I
 echo I    HUD                                  I
 echo I    temple on spare hdd/thiccpad         I
 echo I    make ger plate thing - site dld      I
-echo I    code-emails                          I
 echo I                                         I
 echo -------------------------------------------
 
