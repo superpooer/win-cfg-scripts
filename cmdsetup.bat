@@ -6,7 +6,7 @@ doskey pox=popdx $*
 doskey norm_cd=cd $*
 color 02
 cd C:\Users\tehep
-PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;;C:\Program Files\ffmpeg\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;C:\Program Files\fasm;C:\Program Files\homebrew;C:\MinGW\msys\1.0\bin;C:\texlive\2020\bin\win32\;C:\Program Files\gh;
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;;C:\Program Files\ffmpeg\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;C:\Program Files\fasm;C:\Program Files\homebrew;C:\MinGW\msys\1.0\bin;C:\texlive\2020\bin\win32\;C:\Program Files\gh;C:\Program Files\nasm;
 set ME=%USERPROFILE%
 set PF="C:\Program Files"
 set X86="C:\Program Files (x86)"
