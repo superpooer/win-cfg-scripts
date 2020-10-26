@@ -75,6 +75,7 @@ doskey qtrc=v %USERPROFILE%\AppData\Roaming\qutebrowser\config\config.py
 doskey qt="C:\Program Files\qutebrowser\qutebrowser.exe" $*
 doskey tox-sent=explorer %APPDATA%\Roaming\tox\images
 doskey temple=%PF%\Oracle\VirtualBox\VirtualBoxVM.exe --startvm temple
+doskey cyg=C:\cygwin64\bin\mintty -w max -s 130x2000 -B void
 doskey cygwin=C:\cygwin64\Cygwin.bat
 
 
