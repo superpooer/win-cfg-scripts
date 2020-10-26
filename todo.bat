@@ -3,7 +3,7 @@ cls
 echo -------------------------------------------
 echo I                                         I
 echo I    TODO:                                I
-echo I    nothing :)                           I
+echo I    sort vids w door                     I
 echo I                                         I
 echo -------------------------------------------
 
