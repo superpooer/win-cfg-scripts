@@ -3,7 +3,7 @@ cls
 echo -------------------------------------------
 echo I                                         I
 echo I    TODO:                                I
-echo I    tmuxxxxxxxxxxxx                      I
+echo I    nothing :)                           I
 echo I                                         I
 echo -------------------------------------------
 
