@@ -1,12 +1,11 @@
 @ECHO off
+::DOSKEY HAS NO CASE DISTINCTION
 doskey cd=cdx $*
 doskey pux=pushdx $*
 doskey pox=popdx $*
 ::no recursion support in doskey (its more like a function than an alias)
 doskey norm_cd=cd $*
-color 02
-cd C:\Users\tehep
-PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;;C:\Program Files\ffmpeg\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;C:\Program Files\fasm;C:\Program Files\homebrew;C:\MinGW\msys\1.0\bin;C:\texlive\2020\bin\win32\;C:\Program Files\gh;C:\Program Files\nasm;
+cd C:\Users\fukky
 set ME=%USERPROFILE%
 set PF="C:\Program Files"
 set X86="C:\Program Files (x86)"
@@ -14,34 +13,31 @@ set ROAMING=%USERPROFILE%\AppData\Roaming
 set LOCALDATA=%USERPROFILE%\AppData\Local
 set LOCALLOW=%USERPROFILE%\AppData\LocalLow
 set APPDATA=%USERPROFILE%\AppData
-set REPOS=%USERPROFILE%\repos
-set HB="C:\Program Files\homebrew"
+set HB="C:\Program Files\homebrew.git"
 set MU=%USERPROFILE%\Music
-set TFCFG="C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\cfg"
 set STARTUP="%USERPROFILE%\Appdata\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 set TASKBAR="%USERPROFILE%\Appdata\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\Taskbar"
 title cmd
-prompt tehep[$+]$S
+prompt fukky[$+]$S
 ::^^hardcoded prompt but we cd here so itll never not be true
-doskey cls=%USERPROFILE%\win-cfg-scripts\todo.bat
+doskey cls=%USERPROFILE%\win-cfg-scripts.git\todo.bat
 doskey pf=cdx "C:\Program Files"
 doskey x86=cdx "C:\Program Files (x86)"
-doskey g=cdx C:\Users\tehep\games
+doskey g=cdx C:\Users\fukky\dox\games
 doskey s32=cdx C:\windows\system32
-doskey me=cdx C:\users\tehep
-doskey cfg=cdx C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\cfg
-doskey msys=cdx C:\MinGW\msys\1.0\bin
+doskey me=cdx C:\users\fukky
+doskey msys=cdx C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin
 doskey sdn=shutdown /p
 doskey sdrn=shutdown /r /t 0
-doskey yt=youtube-dl -i --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Videos\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $1
-doskey ytfile=youtube-dl -i --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Videos\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" -a C:\Users\tehep\to_dl.bat
-doskey ytpl=youtube-dl -i --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Videos\\$1\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $2
-doskey yta=youtube-dl -i -x --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Music\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $1
-doskey ytalbum=youtube-dl -i -x --geo-bypass --add-metadata --console-title -o "C:\\Users\\tehep\\Music\\$1\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $2
-doskey appdata=cdx C:\Users\tehep\AppData
+doskey yt=youtube-dl -i --geo-bypass --add-metadata --console-title -o "C:\\Users\\fukky\\dox\\vids\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $1
+doskey ytfile=youtube-dl -i --geo-bypass --add-metadata --console-title -o "C:\\Users\\fukky\\dox\\vids\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" -a C:\Users\fukky\to_dl.bat
+doskey ytpl=youtube-dl -i --geo-bypass --add-metadata --console-title -o "C:\\Users\\fukky\\dox\\vids\\$1\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $2
+doskey yta=youtube-dl -i -x --geo-bypass --add-metadata --console-title -o "C:\\Users\\fukky\\dox\\music\\yt-dl\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $1
+doskey ytalbum=youtube-dl -i -x --geo-bypass --add-metadata --console-title -o "C:\\Users\\fukky\\dox\\music\\$1\\%%(title)s-(%%(channel)s)-%%(id)s.%%(ext)s" $2
+doskey appdata=cdx C:\Users\fukky\AppData
 doskey c=cdx C:\
-doskey vrc=v C:\Users\tehep\Appdata\Local\nvim\init.vim
-doskey vimfiles=cdx "C:\Program Files\Neovim\share\nvim\runtime"
+doskey vrc=v "C:\Users\fukky\Appdata\Local\nvim\init.vim"
+doskey vimfiles=cdx "C:\tools\neovim\Neovim\share\nvim\runtime"
 doskey sound=start control mmsys.cpl sounds
 doskey common=cdx "C:\Program Files\Steam\steamapps\common"
 doskey ps=powershell.exe
@@ -51,34 +47,19 @@ doskey speaker=nircmd setdefaultsounddevice SPEAKER
 doskey jpegview="C:\Program Files\JPEGView\JPEGView.exe" $*
 doskey sdt=sdtx.bat $*
 doskey sda=shutdown /a
-doskey bb=mpc C:\Users\tehep\Music\ambientdump /randomize
-doskey chud=cdx "C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom\pizzzahud"
+doskey sdc=shutdown /a
 doskey pwd=cd
 ::^^pwd takes fucking forever and im pretty sure its from msys (prob shouldnt be), 'cd' or 'cd.' does the same thing for less waiting
-doskey cmd=%USERPROFILE%\win-cfg-scripts\cmdsetup.bat
+doskey cmd=%USERPROFILE%\win-cfg-scripts.git\cmdsetup.bat
 doskey new_cmd=cmd $*
-doskey hb=cdx "C:\Program Files\homebrew"
-doskey lr=type C:\Users\tehep\repos-list
-doskey utils=dir /w /a:-d C:\MinGW\msys\1.0\bin
-doskey jami="C:\Program Files\Jami\jami.exe"
+doskey hb=cdx "C:\Program Files\homebrewd
 doskey tox="C:\Program Files\qTox\bin\qtox.exe"
-doskey magick="C:\Program Files\ImageMagick\magick.exe" $*
 doskey startup=cdls "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
-::DOSKEY HAS NO CASE DISTINCTION
-doskey ga=git add -A
-doskey gs=git status
-doskey gc=git commit $*
-doskey gpmas=git push origin master
-doskey gpullmas=git pull origin master
-doskey xp=%USERPROFILE%\games\q3\xp.bat $*
-doskey qtrc=v %USERPROFILE%\AppData\Roaming\qutebrowser\config\config.py
-doskey qt="C:\Program Files\qutebrowser\qutebrowser.exe" $*
 doskey tox-sent=explorer %APPDATA%\Roaming\tox\images
 doskey temple=%PF%\Oracle\VirtualBox\VirtualBoxVM.exe --startvm temple
-doskey cyg=C:\cygwin64\bin\mintty -w max -s 130x2000 -B void
-doskey cygwin=C:\cygwin64\Cygwin.bat
+doskey time=hbtime
 
 
 
 ::todo also has cls inside
-%USERPROFILE%\win-cfg-scripts\todo.bat
+%USERPROFILE%\win-cfg-scripts.git\todo.bat
