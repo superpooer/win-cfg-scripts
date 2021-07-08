@@ -52,12 +52,12 @@ doskey pwd=cd
 ::^^pwd takes fucking forever and im pretty sure its from msys (prob shouldnt be), 'cd' or 'cd.' does the same thing for less waiting
 doskey cmd=%USERPROFILE%\win-cfg-scripts.git\cmdsetup.bat
 doskey new_cmd=cmd $*
-doskey hb=cdx "C:\Program Files\homebrewd
+doskey hb=cdx "C:\Program Files\homebrew.git"
 doskey tox="C:\Program Files\qTox\bin\qtox.exe"
 doskey startup=cdls "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 doskey tox-sent=explorer %APPDATA%\Roaming\tox\images
-doskey temple=%PF%\Oracle\VirtualBox\VirtualBoxVM.exe --startvm temple
 doskey time=hbtime
+doskey sr=cdls %ME%\src
 
 
 
