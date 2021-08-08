@@ -58,6 +58,7 @@ doskey startup=cdls "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\
 doskey tox-sent=explorer %APPDATA%\Roaming\tox\images
 doskey time=hbtime
 doskey sr=cdls %ME%\src
+doskey niglist=mpv --ytdl-format="bestvideo[height<=1080]+bestaudio/best[height<=1080]" "https://www.youtube.com/playlist?list=PL25SrGDzjzi1zLsXJw4wBq8Mkdj0rpNtc"
 
 
 
